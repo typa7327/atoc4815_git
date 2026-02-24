@@ -58,6 +58,7 @@ git clone https://github.com/WillyChap/atoc4815_git.git
 This deletes your local copy and starts fresh. Your work on GitHub is safe.
 
 ## Contact
+edited by Will
 
 - Will Chapman (wchapman@colorado.edu)
 - Office hours: Tu 11:15-12:15p, Th 9-10a (Aerospace Cafe)
