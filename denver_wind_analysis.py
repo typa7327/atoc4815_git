@@ -40,7 +40,11 @@ def average_wind_speed(data):
     """
     # TODO: Calculate the average of avg_wind_mph across all days
     # Hint: sum up all the avg_wind_mph values and divide by the number of days
-    result = None
+    total = 0
+    for day in data:
+        total += day["avg_wind_mph"]
+
+    result = total / len(data)
     return result
 
 
