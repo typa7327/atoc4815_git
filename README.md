@@ -62,3 +62,5 @@ edited by Will
 
 - Will Chapman (wchapman@colorado.edu)
 - Office hours: Tu 11:15-12:15p, Th 9-10a (Aerospace Cafe)
+
+Edited on GitHub by Tyler Pachuda
