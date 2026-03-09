@@ -82,7 +82,15 @@ def windiest_day(data):
     """
     # TODO: Find the day with the highest max_gust_mph
     # Hint: loop through data, track the highest max_gust_mph and its date
-    result = None
+    max_gust = 0
+    max_date = None
+
+    for day in data:
+        if day["max_gust_mph"] > max_gust:
+            max_gust = day["max_gust_mph"]
+            max_date = day["date"]
+
+    result = (max_date, max_gust)
     return result
 
 
